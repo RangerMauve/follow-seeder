@@ -1,0 +1,25 @@
+{
+  "name": "follow-seeder",
+  "version": "1.0.0",
+  "description": "A basic library that loads a fritter profile's follows and starts dat archives for seeding their Dats. Works with Webrun.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/follow-seeder.git"
+  },
+  "keywords": [
+    "follow",
+    "dat",
+    "fritter",
+    "seed"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/follow-seeder/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/follow-seeder#readme"
+}

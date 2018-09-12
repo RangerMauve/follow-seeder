@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<title>Follow Seeder</title>
+<script type="module">
+	import seed from "./follow-seeder.js";
+
+	main();
+
+	async function main() {
+		const toSeed = await DatArchive.selectArchive({
+			title: "Choose a fritter profile to seed"
+		});
+
+		await seed(toSeed.url, DatArchive);
+	}
+</script>
